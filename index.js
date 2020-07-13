@@ -1,0 +1,12 @@
+const express = require('express')
+const app = express();
+
+
+app.get('/', (req, res)=> {
+    return res.send ("Helo World4")
+    })
+
+app.listen(3000, function(){
+    console.log("server is Running")
+})
+    
